@@ -3,3 +3,8 @@
   background-color: #ffffff;
   height: 100vh;
 }
+.card {
+  background-image: linear-gradient(on top, #2b2c49, #b5b9ff);
+  padding: 10px;
+  border-radius: 20px;
+}

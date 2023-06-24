@@ -1,18 +1,24 @@
 // Write your code here
+
+// import Login from '../Login'
+// import Logout from '../Logout'
+
 import './index.css'
-import Login from '../Login'
-import Logout from '../Logout'
+
 import {Component} from 'react'
 
+import Message from '../Message'
+
 class Home extends Component {
-
-  render (
-
-    <div className="div">
-      <Login />
-    </div>
-
-  )
+  render() {
+    return (
+      <div className="div">
+        <div className="card">
+          <Message />
+        </div>
+      </div>
+    )
+  }
 }
 
 export default Home

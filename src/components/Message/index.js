@@ -1,1 +1,3 @@
-// Write your code here
+const Message = props => <p>Please Login</p>
+
+export default Message
