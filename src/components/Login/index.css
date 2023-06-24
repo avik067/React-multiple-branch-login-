@@ -1,0 +1,18 @@
+/* Write your CSS here */
+
+.div {
+  padding: 10px;
+  color: #ffffff;
+  background-image: linear-gradient(to top, #2b2c49, #b5b9ff);
+  border-radius: 12px;
+  min-height: 400px;
+  min-width: 200;
+}
+.but {
+  background-color: white;
+  color: #303150;
+  min-height: 50px;
+  min-width: 100px;
+  border-radius: 5px;
+  border: none;
+}
