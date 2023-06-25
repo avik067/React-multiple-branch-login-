@@ -1,5 +1,8 @@
 import './index.css'
 
-const Message = () => <p>Please Login</p>
+const Message = props => {
+  const {text} = props
 
+  return <p>{text}</p>
+}
 export default Message

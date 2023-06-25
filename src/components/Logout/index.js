@@ -1,20 +1,18 @@
-
-import {Component} from 'react'
 import './index.css'
 
+const Logout = props => {
+  const {click} = props
+  const action = () => {
+    click()
+  }
 
-class Logout extends Component {
-    change = () => {
-       console.log("login")
-    }
-
-    render (
-    <div className="div">
-        <h1>Welcome User</h1>
-        <button className ="but" type="button" onClick={this.change}>Logout</button>
+  return (
+    <div>
+      <button className="but" type="button" onClick={action}>
+        Logout
+      </button>
     </div>
-    )
+  )
 }
 
 export default Logout
-
