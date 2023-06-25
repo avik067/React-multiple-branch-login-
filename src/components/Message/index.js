@@ -3,6 +3,6 @@ import './index.css'
 const Message = props => {
   const {text} = props
 
-  return <p>{text}</p>
+  return <h1>{text}</h1>
 }
 export default Message
