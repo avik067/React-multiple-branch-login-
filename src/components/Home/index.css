@@ -2,9 +2,14 @@
 .div {
   background-color: #ffffff;
   height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card {
-  background-image: linear-gradient(on top, #2b2c49, #b5b9ff);
-  padding: 10px;
+  /* background-color: #2b2c49; */
+  background-image: linear-gradient(#2b2c49, #b5b9ff);
+  padding: 40px;
   border-radius: 20px;
 }

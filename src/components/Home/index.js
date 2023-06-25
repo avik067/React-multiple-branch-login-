@@ -1,6 +1,6 @@
 // Write your code here
 
-// import Login from '../Login'
+import Login from '../Login'
 // import Logout from '../Logout'
 
 import './index.css'
@@ -14,7 +14,8 @@ class Home extends Component {
     return (
       <div className="div">
         <div className="card">
-          <Message />
+          <Message changeText={changeText} />
+          <Login />
         </div>
       </div>
     )

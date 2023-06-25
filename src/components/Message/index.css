@@ -1,1 +1,8 @@
 /* Write your CSS here */
+p {
+  font-family: Roboto;
+  text-align: center;
+  color: #ffffff;
+  font-family: Bold;
+  font-size: 20px;
+}

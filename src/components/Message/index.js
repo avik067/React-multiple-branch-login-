@@ -1,3 +1,5 @@
-const Message = props => <p>Please Login</p>
+import './index.css'
+
+const Message = () => <p>Please Login</p>
 
 export default Message
